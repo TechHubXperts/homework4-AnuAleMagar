@@ -11,7 +11,7 @@ function App() {
       setInputValue('');
     }
   };
-  //comment added dfdf
+  //comment added dfdf Anu is cool
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">

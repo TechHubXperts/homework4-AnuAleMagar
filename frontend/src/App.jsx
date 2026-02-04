@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 function App() {
+  //comment added dfdf Anu is cool ddf dfdf
   const [notes, setNotes] = useState([]);
   const [inputValue, setInputValue] = useState('');
 

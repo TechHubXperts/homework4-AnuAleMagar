@@ -12,6 +12,7 @@ function App() {
     }
   };
   //comment added dfdf Anu is cool ddf dfdf
+  //another comment 
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">

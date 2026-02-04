@@ -3,7 +3,7 @@ import { useState } from 'react';
 function App() {
   const [notes, setNotes] = useState([]);
   const [inputValue, setInputValue] = useState('');
-  //comment added
+  //comment added dfdf
   const handleSubmit = (e) => {
     e.preventDefault();
     if (inputValue.trim()) {

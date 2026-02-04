@@ -3,7 +3,7 @@ import { useState } from 'react';
 function App() {
   const [notes, setNotes] = useState([]);
   const [inputValue, setInputValue] = useState('');
-
+  //comment added
   const handleSubmit = (e) => {
     e.preventDefault();
     if (inputValue.trim()) {
@@ -35,6 +35,8 @@ function App() {
             </button>
           </div>
         </form>
+
+      
 
         <div>
           {notes.length === 0 ? (

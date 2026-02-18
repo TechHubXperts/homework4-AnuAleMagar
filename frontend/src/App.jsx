@@ -1,15 +1,15 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 function App() {
-  //comment added dfdf Anu is cool ddf dfdf
+  //comment added dfdf Anu is cool ddf dfdf dfdfdf
   const [notes, setNotes] = useState([]);
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (inputValue.trim()) {
       setNotes([...notes, inputValue.trim()]);
-      setInputValue('');
+      setInputValue("");
     }
   };
   //comment added dfdf Anu is cool ddf dfdf
@@ -19,7 +19,7 @@ function App() {
     <div className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-800 mb-6">Simple Notes</h1>
-        
+
         <form onSubmit={handleSubmit} className="mb-6">
           <div className="flex gap-2">
             <input

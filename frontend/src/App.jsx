@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  //comment added dfdf Anu is cool ddf dfdf dfdfdf
+  //comment added dfdf Anu is cool ddf dfdf dfdfdf dfd
   const [notes, setNotes] = useState([]);
   const [inputValue, setInputValue] = useState("");
 

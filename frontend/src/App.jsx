@@ -6,6 +6,7 @@ function App() {
   // 3. Display submitted notes in a list
   // 4. Show empty state when no notes exist
   // 5. Clear input after submission
+  //dfdfd
   
   return (
     <div>

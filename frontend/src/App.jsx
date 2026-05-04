@@ -24,7 +24,7 @@ function App() {
         <button type="submit">Submit</button>
       </form>
       {notes.length === 0 ? (
-        <p>No notes yet</p>
+        <p>No dsdsnotes yet</p>
       ) : (
         <ul>
           {notes.map((note, index) => (
